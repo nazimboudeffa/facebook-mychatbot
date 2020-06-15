@@ -15,8 +15,8 @@ app.get('/', function (req, res) {
   res.render('index')
 })
 
-const config = require('./config.json');
-//const config = {"accessToken" : process.env.accessToken,"appSecret" : process.env.appSecret}
+//const config = require('./config.json');
+const config = {"accessToken" : process.env.accessToken,"appSecret" : process.env.appSecret}
 
 const bot = new BootBot({
   accessToken: config.accessToken,
