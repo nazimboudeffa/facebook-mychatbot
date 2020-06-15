@@ -1,0 +1,23 @@
+{
+  "name": "facebook-mychatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bootbot": "^1.0.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazimboudeffa/facebook-mychatbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nazimboudeffa/facebook-mychatbot/issues"
+  },
+  "homepage": "https://github.com/nazimboudeffa/facebook-mychatbot#readme"
+}
