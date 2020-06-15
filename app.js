@@ -14,6 +14,6 @@ bot.on('message', (payload, chat) => {
   chat.say(`Echo: ${text}`);
 });
 
-let port = port = process.env.PORT || 3000;
+let port = process.env.PORT || 3000;
 
 bot.start(port);
